@@ -1,5 +1,6 @@
 #dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 
+# Detects substrings in a string and counts them 
 def substrings (word = "", dictionary = [""])
 
   hash = dictionary.to_h{|element| [element,0]}
